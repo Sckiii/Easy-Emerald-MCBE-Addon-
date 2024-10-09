@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "minecraft:emerald"
+        },
+        "tags": ["crafting_table", "construction_bench"],
+        "ingredients": ["minecraft:apple", "minecraft:ender_pearl"],
+        "unlock": [
+            {
+                "item": "minecraft:apple"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            }
+        ],
+        "result": {
+            "item": "minecraft:emerald",
+            "data": 1
+        }
+    }
+}
